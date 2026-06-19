@@ -37,10 +37,11 @@ En este repositorio vas a encontrar la estructura inicial para la pata web:
 * 📄 `mi_banco_db.sql`: Script de creación de tablas y datos de prueba.
 * 📄 `ingreso.html`: Formulario de login estilizado con Tailwind CSS.
 * 📄 `registro.html`: Formulario de activación de usuario estilizado con Tailwind CSS.
+* 📄 `Progra3card.cs`: Aplicación de consola C# (solo el "esqueleto") para la emisión, consulta, baja de tarjetas y emisión de liquidaciones.
 
 ### 🛠️ ¿Qué tenés que programar?
 * **En PHP:** Deberás crear la lógica backend para el procesamiento del registro (`altas.php`), el inicio y control de sesiones (`ingreso.php`), y el panel interactivo del cliente (`resumen.php`) que realice los `JOIN` correspondientes para listar las liquidaciones.
-* **En C#:** Deberás estructurar una solución de consola que se conecte a MySQL (usando MySQL Connector) y provea un menú secuencial para dar de alta clientes/tarjetas y emitir nuevas liquidaciones.
+* **En C#:** Deberás estructurar una solución de consola a partir del código provisto, que complete las funcionalidades requeridas, como ser conectarse a MySQL (usando MySQL Connector) y otras para dar de alta clientes/tarjetas y emitir nuevas liquidaciones.
 
 ---
 
