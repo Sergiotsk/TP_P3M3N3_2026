@@ -16,7 +16,7 @@ El objetivo es aplicar la POO al simular el circuito financiero real de la tarje
 ## 🗺️ Flujo de la Información e Integración
 Para entender el orden de desarrollo y la interacción de las tecnologías, el flujo lógico del sistema sigue estos pasos:
 
-1. **C# (Consola):** Inserta un cliente en la tabla `usuarios` $\rightarrow$ Registrando el plástico en `tarjetas` (seleccionando el banco emisor) $\rightarrow$ Carga los resúmenes mensuales en `liquidaciones`.
+1. **C# (Consola):** El personal de la tarjeta **Progra3card** registra a los nuevos clientes en la tabla `usuarios` (alta de un nuevo cliente) y emite una tarjeta registrando los datos de ésta en la tabla `tarjetas` (deberá seleccionar el banco emisor). Cada vcliente es titular de una única y de una única tarjeta. A su vez carga mensualmente los resúmenes emitidos en la tabla `liquidaciones`.
 2. **PHP (Web):** El usuario ingresa a `registro.html` e ingresa su DNI. El backend `altas.php` verifica que ya posea una tarjeta cargada por el banco y, de ser así, actualiza (`UPDATE`) su `usuario` y `password` (en texto plano) para activar su cuenta.
 3. **PHP (Web):** El usuario inicia sesión en `ingreso.html` y accede a `resumen.php` para visualizar el estado de su cuenta.
 
