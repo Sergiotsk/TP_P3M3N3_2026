@@ -1,6 +1,25 @@
-﻿# UTN FRH Tecnicatura Universitaria en P rogramación #
-# Programación III 2026 #
-# TP Integrador: Sistema de Consulta de Liquidaciones "Mis Tarjetas" 💳
+﻿
+---
+
+## Tschernitschek, Sergio  
+## | **Legajo** : 38377 |
+
+
+## Archivos Implementados
+
+| Archivo | Descripción |
+|---|---|
+| `altas.php` | Backend de activación de cuenta: verifica que el DNI tenga tarjeta registrada y hace `UPDATE` de usuario y contraseña |
+| `ingreso.php` | Backend de inicio de sesión: valida credenciales contra la BD, inicia sesión PHP y redirige a `resumen.php` |
+| `resumen.php` | Panel del cliente: muestra datos de tarjeta, última liquidación e historial mediante `JOIN` de las tres tablas |
+| `Progra3card.cs` | Aplicación de consola C# completa: alta de clientes/tarjetas, listado, detalle con JOIN, baja y emisión de liquidaciones |
+| `.gitignore` | Exclusión de archivos locales del repositorio |
+
+<br>
+<br>
+<br>
+
+---
 
 ¡Bienvenido al Trabajo Práctico Integrador de la asignatura **Programación III**! En este proyecto vas a trabajar en la integración de plataformas implementando un ecosistema donde una aplicación de escritorio y un portal web comparten la misma base de datos relacional.
 
