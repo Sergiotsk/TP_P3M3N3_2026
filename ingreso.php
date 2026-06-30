@@ -7,8 +7,6 @@ $host = 'localhost';
 $db   = 'mi_banco_db';
 $user = 'root';
 $pass = '';
-$nombre = '';
-$apellido = '';
 
 $conn = new mysqli($host, $user, $pass, $db);
 

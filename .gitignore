@@ -1,0 +1,26 @@
+# Claude
+CLAUDE.md
+
+# .NET build output
+Progra3card/bin/
+Progra3card/obj/
+Progra3card/*.user
+*.dll
+*.exe
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# VS Code
+.vscode/
+
+# PHP sessions y cache
+/sessions/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
